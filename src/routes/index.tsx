@@ -4,14 +4,18 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <>
-      <h1>Welcome to Qwik Docs Starter</h1>
+      <h1 className="text-red-500">Welcome to Qwik Docs Starter</h1>
 
       <ul>
         <li>This homepage uses a layout without a menu.</li>
         <li>
           <span>The </span>
           <a href="/docs">Documentation</a>
-          <span> pages use multiple nested layouts, one of them providing a left menu.</span>
+          <span>
+            {" "}
+            pages use multiple nested layouts, one of them providing a left
+            menu.
+          </span>
         </li>
         <li>
           Check out the <code>src/routes</code> directory to get started.
